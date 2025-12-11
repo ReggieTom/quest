@@ -1,5 +1,5 @@
 # AWS Data Engineering Pipeline  
-The following is a top-5 consulting firm’s cloud data engineering intership project challenge. This document intentionally omits any mention of external companies or institutional partnerships, following academic guidelines. The system automatically ingests data, stores and processes it, and produces analytics outputs, all deployed through Infrastructure as Code (AWS CDK in Python). The architecture follows a four-part pattern: ingest → store → analyze → deploy.
+The following is a top-5 consulting firm’s cloud data engineering intership challenge. This document intentionally omits any mention of external companies or institutional partnerships, following academic guidelines. The system automatically ingests data, stores and processes it, and produces analytics outputs, all deployed through Infrastructure as Code (AWS CDK in Python). The architecture follows a four-part pattern: ingest → store → analyze → deploy.
 
 Scott Schmidt — Illinois State University — IT497
 
