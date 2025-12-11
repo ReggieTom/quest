@@ -1,7 +1,7 @@
-# Rearc Data Quest
+# AWS Data Engineering Pipeline  
+The following is a top-5 consulting firm’s cloud data engineering intership project challenge. This document intentionally omits any mention of external companies or institutional partnerships, following academic guidelines. The system automatically ingests data, stores and processes it, and produces analytics outputs, all deployed through Infrastructure as Code (AWS CDK in Python). The architecture follows a four-part pattern: ingest → store → analyze → deploy.
 
-### Q. What is this quest?
-It is a fun way to assess your data skills. It is also a good representative sample of the work we do at Rearc.
+Scott Schmidt — Illinois State University — IT497
 
 ### Q. So what skills should I have?
 * Data management / data engineering concepts.
@@ -82,10 +82,6 @@ This quest consists of 4 different parts. Putting all 4 parts together we will h
 2. The deployment should include an SQS queue that will be populated every time the JSON file is written to S3. (Hint: [S3 - Notifications](https://docs.aws.amazon.com/AmazonS3/latest/userguide/NotificationHowTo.html))
 3. For every message on the queue - execute a Lambda function that outputs the reports from Part 3 (just logging the results of the queries would be enough. No .ipynb is required).
 
-
-### Q. Do I have to do all these?
-You can do as many as you like. We suspect though that once you start you won't be able to stop. It's addictive.
-
 ### Q. What do I have to submit?
 1. Link to data in S3 and source code (Step 1)
 2. Source code (Step 2)
@@ -98,15 +94,6 @@ Your submission should be emailed back to us as one or both of the following:
 
 1. A link to a public hosted git repository in your own namespace
 1. A compressed file containing your project directory (zip, tgz, etc). Include the .git sub-directory if you used git.
-
-### Q. What if I successfully complete all the steps?
-We have many more for you to solve as a member of the Rearc team!
-
-### Q. What if I fail?
-Do. Or do not. There is no fail.
-
-### Q. Can I share this quest with others?
-No.
 
 ### Q. How do I get around the 403 error when I try to fetch BLS data?
 <details>
@@ -127,4 +114,5 @@ How could you add information to your programmatic access requests to let BLS co
 </details>
 
 ### Q. Can I use AI to assist me?
-You may use AI as a reference tool but there will be a strong expectation to exhibit the same expertise and understanding from your submission in your interview. In addition we encourage you to be open about any usage! Please document what you used, what your prompts were, how it helped, what it got wrong, etc.
+Use AI as a reference tool but there will be a strong expectation to exhibit the same expertise and understanding from your submission in your interview. 
+Please document what you used, what your prompts were, how it helped, what it got wrong, etc.
